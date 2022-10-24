@@ -20,8 +20,35 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  gap: 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.container2 {
+  flex-shrink: 10;
+  /* margin: 0 0 0px 20px; */
+  /* display: flex; */
+  /* flex-direction: ; */
+}
+
+/* .topo {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+} 
+*/
+
+.header {
+  font-weight: bold;
+  font-size:large;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -33,6 +60,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  /* padding: 20px */
 }
 
 .close-button {
@@ -47,7 +76,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.text {
+  margin: 0 0 16px 0;
+}
 button {
   padding: 8px 16px;
   border-radius: 8px;
